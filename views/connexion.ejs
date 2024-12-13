@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="css/connexion.css">
+</head>
+
+<body>
+   
+
+
+    <div class="connexion">
+        
+        <h1>Connexion</h1>
+
+        <div class="personne">
+        <label>Utilisateur :</label>
+        <input type="text" name="identifiant" id="identifiant" required> 
+            <br><br>
+        </div>
+
+        <div class="personne">
+        <label>Mot de passe :</label>
+        <input type="password" name="mdp" id="mdp" required>
+            <br><br>
+        </div>
+
+        <div class="bouton">
+        <input type="submit" value="Se connecter" id="entrer" onclick="user('<%= id %>', '<%= identifiant %>', '<%= mdp')" required>
+            <br><br>
+
+            <div class="oubliemdp">
+                <a href="#">Mot de passe oublié ?</a>
+              </div>
+        </div>
+        
+    
+
+
+
+
+    </div>
+
+</body>
+<script>
+    function user(id, identifiant, mdp) {
+        document.querySelector("#id").value = id;
+        document.querySelector("#identifiant").value = identifiant;
+        document.querySelector("#mdp").value = mdp;
+    }
+</script>
+</html>
