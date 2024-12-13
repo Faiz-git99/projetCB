@@ -1,0 +1,64 @@
+.footer {
+    display: flex;
+    bottom: 0;
+    padding: 5px; /* Espacement autour du footer */
+    background-color: dimgrey; /* Couleur de fond du footer */
+    color: white; /* Couleur du texte */
+    width: 100%; /* Occupe toute la largeur de la page */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+}
+
+/* Conteneur pour les sections .lien et .outilconnect */
+.lien-connexion{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px; /* Espacement sous les sections */
+}
+
+.lien {
+    border-left: 3px solid black;
+}
+
+.outilconnect {
+    border-left: 3px solid black;
+}
+
+.reseausociaux {
+    border-left: 3px solid black;
+    
+}
+
+/* Style pour les sections .lien et .outilconnect */
+.lien, .outilconnect, .reseausociaux{
+    width: 80%; /* Chaque section prend 50% de la largeur de l'espace */
+    padding: 0 15px;
+} 
+
+/* Style pour les titres des sections */
+.footer h5 {
+    color: black;
+    margin-bottom: 15px; /* Espacement entre le titre et la liste */
+    font-size: 16px;
+}
+
+/* Liste de liens */
+.footer ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+/* Liens dans chaque section */
+.footer li {
+    padding: 8px 0;
+}
+
+.footer a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.footer a:hover {
+    color: lightblue;
+}
+

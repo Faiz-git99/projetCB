@@ -1,0 +1,96 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } 
+  
+  h3 {
+    
+    text-align:end;
+  }
+  
+  /* Form styling */
+  .connexion {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input group styling */
+  .personne {
+    margin-bottom: 20px;
+  }
+  
+  .personne label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .personne input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    
+  }
+  
+  
+  
+  /* Button styling */
+  .bouton input{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  .oubliemdp {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .oubliemdp a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .oubliemdp a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  
+  
+  
+  
+  

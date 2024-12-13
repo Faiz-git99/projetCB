@@ -1,0 +1,94 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } 
+  
+  
+  /* Form styling */
+  .formcontact {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(51, 92, 62, 0.1);
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input group styling */
+  .chitrou {
+    margin-bottom: 20px;
+  }
+  
+  .chitrou label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .chitrou input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    
+  }
+  
+  .objet label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+
+  .objet textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    
+  }
+  
+  /* Button styling */
+  .signa input{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  

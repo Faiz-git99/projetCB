@@ -1,0 +1,78 @@
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color:bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  } 
+  
+  
+  /* Form styling */
+  .firstconnexion {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input group styling */
+  .moinadamou {
+    margin-bottom: 20px;
+  }
+  
+  .moinadamou label {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .moinadamou input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fafafa;
+    
+  }
+  
+  
+  
+  /* Button styling */
+  .point input{
+    text-align: center;
+    width: 100%;
+    padding: 12px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  

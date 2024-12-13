@@ -1,0 +1,49 @@
+body {
+    background-color:white;
+  } 
+
+  .page {
+    
+    background-color: bisque;
+    padding: 40px;
+    width: 100%;
+    max-width: 400%;
+  }
+
+
+.connect {
+    display: block;
+    text-align: right;
+    padding-inline: 60px;
+}
+
+.connect a{
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 17px;
+    text-decoration: none;
+    color:blueviolet;
+}
+
+.connect a:hover {
+    text-decoration: underline;
+  }
+
+header h1 {
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+
+.logo h3 {
+    font-size: 60px;
+    display: block;
+    font-weight: bold;
+}
+
+.trait {
+    width: 5cm; /* Largeur de 5 cm */
+  height: 4px; /* Hauteur de 1 pixel pour créer une ligne fine */
+  background-color: black; /* Couleur du trait */
+}
+
